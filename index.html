@@ -1,0 +1,305 @@
+<!--Instructions for Capstone Project 1 - Online Resume
+Project Specifications
+Create an HTML file named index.html.
+
+Use the <!DOCTYPE html> declaration at the beginning of the file to indicate that it's an HTML document.
+
+Create a head section that includes a title element with the text "My Resume".
+
+Inside the body section, write HTML code to create an online resume covering the following aspects:
+
+Summary or objective statement
+
+Education (list degrees, schools, and dates)
+
+Work experience (list job titles, employers, dates, and responsibilities)
+
+Skills (list relevant skills or areas of expertise)
+
+Awards, certifications, or other achievements (list any relevant awards, certifications, or other accomplishments)
+
+Use appropriate HTML tags to format the content of each section, such as h1 for section headings and ul or ol for lists.
+
+Use HTML tags to add a profile photo of yourself.
+
+Use relevant anchor tags to create a multi-page website, listing other aspects of your resume such as Hobbies and Contact details.
+
+Add a footer element with your name and any copyright information or other disclaimers. (Hint: use the MDN docs for things you don't know how to do: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/footer
+
+Save the index.html file and open it in a web browser to ensure that it displays correctly.
+
+Add your website to your GitHub to start building your portfolio.
+
+Publish your website using GitHub pages and share it here (in the Q&A) with other students.
+
+Comment and make suggestions to other students' projects.
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Resume</title>
+
+  <style>
+
+    body {
+      background-color: hsl(180, 100%, 97%);
+      margin-left: 20px;
+    }
+
+    #profile-pic {
+      height: 200px;
+      border-radius: 100px;
+      margin-right: 15px;
+      float: left;
+    }
+
+    .container {
+      display:inline-block;
+      padding: auto;
+      margin-bottom: 15px;
+    }
+
+    .li {
+      list-style-type: '-  ';
+      line-height: 1.5;
+    }
+
+    .h3 {
+      background-color: hsl(180, 100%, 90%);
+    }
+
+    .dl {
+      line-height: 1.5;
+    }
+
+  </style>
+
+</head>
+
+<body>
+<heading>
+<h1>GUNARS ALEKSANS</h1>
+</heading>
+
+<div class="container">
+<img src="./images/profile pic.JPG" id="profile-pic">
+
+<h3>SUMMARY</h3>
+<P>
+  An enthusiastic professional individual who is seeking a new challenging career after
+  many years of experience in Property Management and a border control operation.
+  I am a hardworking individual who strives to achieve the best in all areas, and I am
+  always eager to learn new skills and advance my caree
+</P>
+</div>
+
+<main>
+<h3 class="h3">EDUCATION</h3>
+<div class="dl">
+  <dl>
+    <dt style="font-weight: bold;">NCFE &#65372 2023</dt>
+    <dd>Climate Change and Environmental Awareness
+      Certification</dd>
+  </dl>
+
+  <dl>
+    <dt style="font-weight: bold;">IOSH &#65372 2020</dt>
+    <dd>Business & Administration BTEC Level 2</dd>
+  </dl>
+
+  <dl>
+    <dt style="font-weight: bold;">Rezekne University &#65372 Latvia &#65372 2009</dt>
+    <dd>Finance & Management Higher Education</dd>
+  </dl>
+
+  <dl>
+    <dt style="font-weight: bold;">Border-Guard College &#65372 Latvia &#65372 2006</dt>
+    <dd>Border Protection First Level Vocational Higher Education</dd>
+  </dl>
+
+  <dl>
+    <dt style="font-weight: bold;">Latvia &#65372 2005</dt>
+    <dd>International Baccalaureate &#40A-Levels&#41</dd>
+  </dl>
+
+  <dl>
+    <dt style="font-weight: bold;">Latvia &#65372 2002</dt>
+    <dd>GCSEs</dd>
+  </dl>
+</div>
+
+<h3 class="h3">WORK EXPERIENCE</h3>
+  <ul>
+    <li>
+      <h4>2019 &#8212 2015 Samsung</h4>
+      <h4>Facilities Assistant</h4>
+      <ul class="li">
+        <li>Managing and ensuring that relevant building maintenance,
+          repairs and services completed efficiently, on time and
+          budget
+        </li>
+        <li>
+          Organising and planning essential services such as reception,
+          security, maintenance, mail, cleaning, catering, and waste
+          disposal and recycling
+        </li>
+        <li>
+          Ensuring H&S regulations by checking the building free from
+          slips and trips and a fully compliant
+        </li>
+        <li>
+          Ensuring building statutory compliance met
+        </li>
+        <li>
+          Building healthy relationships with contractors/suppliers and
+          effective management of their level of performance as part of
+          expected standards of Samsung, controlling permits and
+          RAMS
+        </li>
+        <li>
+          Tenant engagement and customer loyalty
+        </li>
+        <li>
+          Stakeholder engagement in reporting regular operational
+          issue in the building
+        </li>
+        <li>
+          Risk assessment and action management
+        </li>
+        <li>
+          Involvement in general, H&S, fire, water asbestos and DDA
+          risk assessments
+        </li>
+        <li>
+          Conducting internal Office relocation moves
+        </li>
+        <li>
+          Carrying H&S inspections, risk assessments, DSE assessments,
+          office audits
+        </li>
+        <li>
+          Raising contractor orders and processing with purchase
+          orders and invoices
+        </li>
+        <li>
+          Involvement in building budgeting draft, commodity and
+          expenditure management
+        </li>
+        <li>
+          Familiar with DGPR compliance and CCTV surveillance
+          practice
+        </li>
+        <li>
+          Managing interoffice mail and international shipments
+        </li>
+        <li>
+          Assisting the Facilities Manager with reporting duties,
+          budgeting tasks and various projects
+        </li>
+      </ul>
+    </li>
+  </ul>
+
+
+  <ul>
+    <li>
+      <h4>2015 &#8212 2019 Here East</h4>
+      <h4>FOH Assistant Manager</h4>
+      <ul class="li">
+        <li>
+          Managed team of eight people
+        </li>
+        <li>
+          Developing and re-organising site operational procedures
+        </li>
+        <li>
+          Developing and implementing training matrix
+        </li>
+        <li>
+          New tenant on boarding and involvement in special projects
+        </li>
+        <li>
+          Launching and operating deli pop up
+        </li>
+        <li>
+          Consistently keeping high scores in KPI
+        </li>
+        <li>
+          Responsibility in formatting and editing newsletter
+        </li>
+        <li>
+          IT troubleshooting
+        </li>
+        <li>
+          Managing building management systems
+        </li>
+        <li>
+          Correctly managing disciplinary meetings
+        </li>
+        <li>
+          Evaluated team performance and managing
+          underperformance
+        </li>
+        <li>
+          Performance improvement planning
+        </li>
+      </ul>
+    </li>
+  </ul>
+ 
+<h3 class="h3">SKILLS</h3>
+
+<ul class="li">
+  <li>
+    Management
+  </li>
+  <li>
+    Tenant Relationship 
+  </li>
+  <li>
+    Project
+  </li>
+  <li>
+    Management
+  </li>
+  <li>
+    Problem Solving
+  </li>
+  <li>
+    Finance
+  </li>
+  <li>
+    Building Services
+  </li>
+  <li>
+    Team Working
+  </li>
+  <li>
+    Interpersonal Skills
+  </li>
+  <li>
+    Administration
+  </li>
+  <li>
+    Co-working
+  </li>
+  <li>
+    IT & Computer Skills
+  </li>
+</ul>
+</main>
+
+<h3 class="h3">OTHER</h3>
+  <a href="my-hobbies.html" target="_blank" style="margin-right:20px">MY HOBBIES</a> 
+    <!--&nbsp&nbsp-->
+  <a href="contact-me.html" target="_blank">CONTACT ME</a>
+
+<footer>
+  <p>&#169; Gunars Aleksans &#65372; All rights reserved</p>
+</footer>
+
+</body>
+</html>
